@@ -1,0 +1,261 @@
+.login{
+    width: 100%;
+}
+.login_content{
+	width: 453px;
+	height: 373px;
+	margin: 50px auto;
+	position: relative;
+}
+.lg_top{
+	width: 350px;
+	height: 218px;
+	position: absolute;
+	left:53px;
+	top: 38px;
+	z-index: 0;
+}
+.lg_toplg{
+	color: #0066cc;
+}
+.lg_top span{
+	font:20px "微软雅黑";
+	color: #666;
+	margin-left: 10px;
+}
+
+.lg_top p{
+	margin-left: 228px;
+    font:12px "宋体";
+    color: #0066cc;
+	display: inline;
+}
+
+.log_t{
+	margin-top: -20px;
+}
+.log_t input{
+	width: 350px;
+	height: 53px;
+}
+.lg_t{
+	width: 349px;
+	height: 53px;
+	margin-top: 8px;
+	border: none;
+}
+.lg_t input{
+	width: 311px;
+	height: 53px;
+	padding-left: 38px;
+}
+.lg_p{
+	width: 349px;
+	height: 53px;
+	border: none;
+}
+.lg_p label img{
+    position: absolute;
+    left: 290px;
+    top: 100px;
+    width: 30px;
+    height: 30px;
+}
+.lg_p input{
+	width: 311px;
+	height: 53px;
+	padding-left: 38px;
+
+}
+.lg_tpicon{
+	background-position: 0px -79px;
+	width: 15px;
+	height: 17px;
+	background-image: url(../img/lg_icon.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	z-index: 2;
+	overflow: hidden;
+	position: relative;
+	right: -6px;
+	bottom: 90px;
+}
+.lg_tpicona{
+	background-position: 0px -132px;
+	width: 16px;
+	height: 18px;
+	background-image: url(../img/lg_icon.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	z-index: 2;
+	overflow: hidden;
+	position: relative;
+	right: 22px;
+	bottom: 33px;
+}
+.lg_zddl{
+	width: 349px;
+	
+	margin-top: -10px;
+	position: relative;	
+}
+.log_zd{
+	font: 12px '宋体';
+	color: #666;
+	display: inline;
+	position: absolute;
+	left:25px;
+}
+.log_zda{
+	font: 12px '宋体';	
+	color: #666;
+	display: inline;
+	position: absolute;
+	right: 16px;
+}
+.lg_check{
+	position: absolute;
+	top:1px;
+	
+}
+/* .lg_btn{
+	background: #d50f1f;
+	width: 250px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border-radius: 15px;
+	color: #fff;
+	font-size: 18px;
+	position: absolute;
+	left: 30px;
+	top: 0;
+	
+} */
+.lg_btn a{
+
+	display: inline-block;
+	width: 250px;
+	height: 35px;
+	color: #fff;
+	background: #d50f1f;
+	width: 250px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border-radius: 15px;
+	color: #fff;
+	font-size: 18px;
+	position: absolute;
+	left: 45px;
+	top: 180px;
+	
+}
+.zh_dl{
+	width: 430px;
+	height: 20px;
+	
+	position: relative;
+	top: 280px;
+	left: 20px;
+}
+.zh_dlicon{
+	width: 400px;
+	height: 60px;
+	position: relative;
+	top: 280px;
+	left: 20px;
+	margin-left: 43px;
+}
+.zh_dlicon span{
+	width: 32px;
+	height: 32px;
+	background-image: url(../img/lg_icon.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	overflow: hidden;
+	margin:13px 20px 12px 3px;
+}
+.zh_xxk{
+	line-height: 60px;
+	width: 120px;
+	border-top:1px dashed #666;
+	display: inline-block;
+	position: relative;
+	top: -3px;
+}
+.lg_tpiconb{
+	background-position: 0px -164px;
+	width: 20px;
+	height: 15px;
+	background-image: url(../img/lg_icon.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	z-index: 2;
+	overflow: hidden;
+	position: relative;
+	right: -230px;
+	bottom: 30px;
+}
+.lg_tpiconc{
+	background-position:0px -40px;
+	
+}
+.lg_tpicond{
+	background-position:-52px 0px;
+	
+}
+.lg_tpicone{
+	background-position:-105px 0px;
+	
+}
+.lg_tpiconf{
+	background-position:-157px 0px;
+	
+}
+.lg_tpicong{
+	background-position:-210px 0px;
+	
+}
+.lg_tpiconh{
+	background-position:-262px 0px;
+	
+}
+
+
+/* 登录效果 */
+.shake_effect {
+	-webkit-animation-name: shake;
+	animation-name: shake;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+}
+ @-webkit-keyframes shake {
+ from, to {
+ -webkit-transform: translate3d(0, 0, 0);
+ transform: translate3d(0, 0, 0);
+}
+ 10%, 30%, 50%, 70%, 90% {
+ -webkit-transform: translate3d(-10px, 0, 0);
+ transform: translate3d(-10px, 0, 0);
+}
+ 20%, 40%, 60%, 80% {
+ -webkit-transform: translate3d(10px, 0, 0);
+ transform: translate3d(10px, 0, 0);
+}
+}
+ @keyframes shake {
+ from, to {
+ -webkit-transform: translate3d(0, 0, 0);
+ transform: translate3d(0, 0, 0);
+}
+ 10%, 30%, 50%, 70%, 90% {
+ -webkit-transform: translate3d(-10px, 0, 0);
+ transform: translate3d(-10px, 0, 0);
+}
+ 20%, 40%, 60%, 80% {
+ -webkit-transform: translate3d(10px, 0, 0);
+ transform: translate3d(10px, 0, 0);
+}
+ }
+
